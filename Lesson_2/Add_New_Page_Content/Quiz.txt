@@ -1,0 +1,40 @@
+QUESTION 1 OF 4
+
+You've learned about the document object, the Node Interface, and the Element interface. Where does .createElement() come from?
+
+Answer:
+
+the document object
+
+QUESTION 2 OF 4
+
+What is the URL for the "createElement" page on MDN?
+
+Answer:
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+QUESTION 3 OF 4
+
+Which of the following would create a new paragraph element?
+
+Answer:
+
+document.createElement('p');
+
+
+QUESTION 4 OF 4
+
+What happens after running this code?
+
+const mainHeading = document.querySelector('#main-heading');
+const otherHeading = document.querySelector('#other-heading');
+const excitedText = document.createElement('span');
+
+excitedText.textContent = '!!!';
+mainHeading.appendChild(excitedText);
+otherHeading.appendChild(excitedText);
+
+Answer:
+
+only otherHeading has three exclamation marks

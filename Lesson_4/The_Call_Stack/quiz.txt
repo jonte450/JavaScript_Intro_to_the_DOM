@@ -1,0 +1,63 @@
+QUESTION 1 OF 2
+
+How many items (frames) will be on the stack when the code reaches the "stop here" comment?
+
+function quiz () {
+  var y = 'yes';
+  questions();
+  fun();
+}
+function questions () {
+  var y = 'no';
+  return 7;
+}
+function are () {
+  return 3;
+}
+function fun () {
+  are();
+  // stop here
+}
+
+quiz()
+
+Answer: 2.
+
+Quiz 2 of 2.
+
+Use this code for the following question.
+
+function dolphins () {
+  // stop here
+  return 'llamas';
+}
+function rhinos () {
+  var y = 'no';
+  return penguins();
+}
+function penguins () {
+  return camels();
+}
+function camels () {
+  return dolphins();
+}
+
+rhinos()
+
+QUESTION 2 OF 2
+Put the function names in the correct order they would appear when the // stop here comment is reached. Remember to put the oldest/initial at the bottom of the stack. Assume there is no "<main>"/default frame.
+
+Answer:
+
+ORDER OF STACK                          FUNCTION NAME
+
+Top of the stack                        dolphins
+
+
+2nd item in the stack                   camels
+
+
+3rd item in the stack                   penguins
+
+
+bottom of the stack                     rhinos

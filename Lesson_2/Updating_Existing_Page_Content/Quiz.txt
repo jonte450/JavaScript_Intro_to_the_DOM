@@ -1,0 +1,42 @@
+
+Quiz 1 of 4.
+
+Write the DOM code necessary to select the first element with class: card
+
+Answer:
+
+document.querySelector('.card');
+
+
+
+Quiz 2 of 4.
+
+What is .innerHTML?
+
+Answer:
+
+a property.
+
+
+Quiz 3 of 4.
+
+What does .innerHTML return?
+
+Answer:
+
+a string.
+
+Quiz 4 of 4.
+
+<h1 id="test">Ice Cream Flavors</h1>.
+
+Given the HTML above, what will be the .textContent value after running this code:
+
+const myElement = document.querySelector('#test');
+myElement.textContent = 'The <strong>Greatest</strong> Ice Cream Flavors';
+
+Answer:
+
+The < strong >Greatest</ strong > Ice Cream Flavors
+
+

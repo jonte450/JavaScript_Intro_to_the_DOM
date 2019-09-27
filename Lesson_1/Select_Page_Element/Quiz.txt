@@ -1,0 +1,23 @@
+QUESTION 1 OF 3
+
+Now, what do you think will happen if you used document.getElementById(<some-nonexistent-ID>) to search for some ID that doesn't actually exist in the HTML page?
+
+Answer:
+
+null will be returned.
+
+QUESTION 2 OF 3
+
+Which of the following will select the element with the ID of logo?
+
+Answer:
+
+document.getElementById('logo');
+
+QUESTION 3 OF 3
+
+Write the DOM code to select the element with ID strawberry-banner.
+
+Answer:
+
+document.getElementById('strawberry-banner');

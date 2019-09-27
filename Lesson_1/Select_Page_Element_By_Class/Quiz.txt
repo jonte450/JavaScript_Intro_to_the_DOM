@@ -1,0 +1,27 @@
+QUESTION 1 OF 3
+
+Which of the following would correctly select all elements with class: 'splort'?
+
+Answer:
+
+document.getElementsByClassName('splort');
+
+QUESTION 2 OF 3
+
+Write the DOM code to select all <article> elements.
+
+Answer:
+
+document.getElementsByTagName('article');
+
+QUESTION 3 OF 3
+
+Write the DOM code to select all elements with class: fancy-footer.
+
+Answer:
+
+document.getElementsByClassName('fancy-footer');
+
+
+
+

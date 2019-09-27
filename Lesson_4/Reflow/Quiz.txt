@@ -1,0 +1,15 @@
+Quiz 1 of 1
+
+Reflect
+
+Adding a single CSS class could trigger reflow. In your own words, explain why adding some CSS to an element might cause reflow to happen.
+
+Your reflection
+
+Because the DOM object must reflow the CCS changes and repaint it.
+
+Things to think about
+Thanks for your response!
+
+Answer:
+You could use the Virtual DOM

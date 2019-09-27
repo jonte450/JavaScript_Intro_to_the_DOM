@@ -1,0 +1,6 @@
+QUIZ QUESTION 1 of 1.
+
+On what event target should we listen for the DOMContentLoaded event?
+
+Answer:
+the document object.

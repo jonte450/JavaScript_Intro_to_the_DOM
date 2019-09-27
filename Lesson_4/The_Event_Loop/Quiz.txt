@@ -1,0 +1,22 @@
+QUIZ QUESTION
+
+What is the order that the iceCream function goes through if the <footer> is clicked?
+
+const pageFooter = document.querySelector('#page-footer');
+
+pageFooter.addEventListener('click', function iceCream () {
+    const footerDetails = document.querySelector('#details');
+
+    footerDetails.textContent = 'Everyone should eat ice cream!';
+});
+
+
+ORDER                EVENT LOOP LOCATION
+
+First                Browser
+
+
+Second               the Queue
+
+
+Third                the Call Stack

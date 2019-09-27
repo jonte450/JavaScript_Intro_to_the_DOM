@@ -1,0 +1,35 @@
+Quiz 1 of 1
+
+for (let i = 1; i <= 200; i++) {
+    const newElement = document.createElement('p');
+    newElement.textContent = 'This is paragraph number ' + i;
+
+    document.body.appendChild(newElement);
+}
+
+Reflect
+
+Is this for loop code written efficiently? Write out the different ways you think this code could be improved. (hint - there are actually several ways!)
+
+Your reflection
+
+Maybe move somethings out of the loop like document.body.appendChild();?
+Things to think about
+Thanks for your response!
+
+
+Answer:
+
+const fragment = document.createDocumentFragment();  // ← uses a DocumentFragment instead of a <div>
+
+for (let i = 0; i < 200; i++) {
+    const newElement = document.createElement('p');
+    newElement.innerText = 'This is paragraph number ' + i;
+
+    fragment.appendChild(newElement);
+}
+
+document.body.appendChild(fragment); // reflow and repaint here -- once!
+
+document.Fragment makes it a little bit faster.
+

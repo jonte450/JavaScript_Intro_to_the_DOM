@@ -1,0 +1,57 @@
+QUESTION 1 OF 3
+
+Reflect
+
+Thinking about nodes and how the DOM is structured, after running the code below, which event listener will fire first when the page is clicked? Write out your answer and your explanation of why it will be in that order:
+
+document.addEventListener('click', function () {
+   console.log('The document was clicked');
+});
+
+document.body.addEventListener('click', function () {
+    console.log('The document body was clicked');
+});
+
+Answer:
+
+Your reflection
+
+First the above the last will be the last function.
+And thats because the DOM is constructed like an graph.
+
+Things to think about
+
+Thank you for your response.
+
+QUESTION 2 OF 3
+
+Which of the phases is the following code set up for?
+
+const items = document.querySelectorAll('.quizzing-quizzes');
+const el = items[1];
+
+el.addEventListener('click', function () {
+    console.log('You clicked on the 2nd quizzing-quizzes item!');
+}, false);
+
+Answer:
+
+the bubbling phase.
+ 
+QUESTION 3 OF 3
+
+After running the code below and clicking on the page, two console.log messages will display in the console. Put the messages in the correct order.
+
+document.addEventListener('click', function () {
+   console.log('The document was clicked');
+});
+
+document.body.addEventListener('click', function () {
+    console.log('The body element was clicked');
+});
+
+Answer:
+
+ORDER OF MESSAGE      CONSOLE.LOG MESSAGE
+First message:        The body element was clicked.
+Second message:       The document was clicked.

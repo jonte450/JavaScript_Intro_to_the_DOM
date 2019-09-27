@@ -1,0 +1,61 @@
+QUESTION 1 OF 4
+
+Will the following equality test result in true or false?
+
+{ name: 'Richard' } === { name: 'Richard' }
+
+Answer:
+
+false.
+
+QUESTION 2 OF 4
+
+Given this code:
+
+var a = {
+    myFunction: function quiz() { console.log('hi'); }
+};
+var b = {
+    myFunction: function quiz() { console.log('hi'); }
+};
+
+Does the following code evaluate to true or false?
+
+a.myFunction === b.myFunction
+
+Answer:
+
+false.
+
+QUESTION 3 OF 4
+
+Given this code:
+
+function quiz() { ... }
+
+var a = {
+    myFunction: quiz
+};
+var b = {
+    myFunction: quiz
+}
+
+Does the following code evaluate to true or false?
+
+a.myFunction === b.myFunction
+
+Answer:
+
+true.
+
+QUESTION 4 OF 4
+
+Assuming that myForm is a <form> element, will the <form> element have a submit event listener after running the following code, or not?
+
+myForm.addEventListener('submit', function respondToSubmit(){...});
+myForm.removeEventListener('submit', function respondToSubmit(){...});
+
+Answer:
+
+the element will still have an event listener
+

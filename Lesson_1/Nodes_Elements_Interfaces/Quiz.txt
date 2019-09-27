@@ -1,0 +1,39 @@
+QUESTION 1 OF 4.
+
+Put these in the correct order of operation.
+
+happens first : tag.
+
+happens second : token.
+
+happens third : nodes.
+
+happens fourth : DOM.
+
+
+QUESTION 2 OF 4
+
+Does the .outerHTML property come from the Node Interface or the Element Interface? Check all that apply.
+
+Answer:
+
+Element Interface.
+
+
+QUESTION 3 OF 4
+
+Which interface does the .id property come from?
+
+Answer:
+
+Element Interface.
+
+QUESTION 4 OF 4
+
+Which interface does the .textContent property come from?
+
+Answer:
+
+Node interface.
+
+

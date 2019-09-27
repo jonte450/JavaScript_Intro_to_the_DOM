@@ -1,0 +1,26 @@
+QUESTION 1 OF 3
+
+Which of the following will style an element by its ID?
+
+Answer:
+
+#footer { ... }
+
+QUESTION 2 OF 3
+
+Which of the following will style an element by its class?
+
+Answer:
+
+.left-nav { ... }.
+.id { ... }.
+
+QUESTION 3 OF 3
+
+Which of the following will style an element by targeting the tag name?
+
+Answer:
+
+p { ... }.
+
+

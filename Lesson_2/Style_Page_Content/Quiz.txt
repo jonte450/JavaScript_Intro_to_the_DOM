@@ -1,0 +1,73 @@
+QUESTION 1 OF 6
+
+Before we begin, put these in the correct order of CSS specificity. Put the least-specific option at the top and the most-specific option at the bottom.
+
+Answer:
+
+Least specific: rules in a stylesheet
+
+More specific: rules in a <style> tag.
+
+Most specific: rules in a tag's style attribute.
+
+QUESTION 2 OF 6
+
+Reflect
+Why do you think it has to be fontSize? Why would font-size not work?
+
+Answer:
+
+Your reflection
+
+Maybe because of differents compilers!
+
+Things to think about
+Thank you for your response.
+
+QUESTION 3 OF 6
+
+Write the JavaScript code to set the width of element to 50%;
+
+Answer:
+
+Your reflection
+
+const mainHeading = document.querySelector('h1');
+mainHeading.style.width = %50;
+
+Things to think about
+Great work!
+
+QUESTION 4 OF 6
+
+<p id="quizzing-quizzes" style="color: orange;">Howdy</p>
+
+For the element above, which of the following styles will be applied after running this code?
+
+Answer:
+
+width.
+
+QUESTION 5 OF 6
+
+Review the classList property's documentation. What data structure does the .classList property return?
+
+Answer:
+
+a DOMTokenList.
+
+QUESTION 6 OF 6
+
+What happens if you try to toggle a nonexistent class? For example, if you had this HTML:
+
+<h1 id="main-heading" class="ank-student jpk-modal">Learn Web Development at Udacity</h1>
+
+...what would happen after running the following JavaScript:
+
+const mainHeading = document.querySelector('#main-heading');
+
+mainHeading.classList.toggle('richard');
+
+Answer:
+
+the richard class is added to the list of classes

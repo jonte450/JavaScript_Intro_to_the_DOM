@@ -1,0 +1,51 @@
+QUESTION 1 OF 3.
+
+In the following code, what is the event type?
+
+const lotsOfElements = document.querySelectorAll('.quizzing-quizzby');
+const element = lotsOfElements[2];
+
+element.addEventListener('animationend', function () {
+    const mainHeading = document.querySelector('h1');
+
+    mainHeading.style.backgroundColor = 'purple'; 
+});
+
+Answer:
+
+The string animationend.
+
+QUESTION 2 OF 3.
+
+Given this code:
+
+document.addEventListener('keypress', function () {
+    document.body.remove();
+});
+
+Answer:
+
+nothing.
+
+QUESTION 3 OF 3.
+
+Reflect
+Think about these interfaces:
+
+-EventTarget
+-Node
+-Element
+
+Is there a difference between these two:
+
+-document.addEventListener()
+-myHeading.addEventListener() (assume the myHeading variable is an element)
+
+Answer:
+Your reflection
+
+I thinke heading is more local and the document is more common.
+
+Things to think about
+
+Thanks for your response.

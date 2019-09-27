@@ -1,0 +1,26 @@
+
+Quiz 1 of 3
+
+Write the .querySelector() code to find the first item with an ID of: fanciful-butterfly.
+
+Answer:
+
+document.querySelector('#fanciful-butterfly');
+
+
+
+Quiz 2 of 3
+
+Write the .querySelector() code to find the first paragraph element that also has a class of: callout
+
+Answer:
+
+document.querySelector("p.callout");
+
+Quiz 3 of 3
+
+Write the .querySelectorAll() code to find all paragraph elements that are descendents of elements that have the class: articles
+
+Answer:
+
+document.querySelectorAll(".articles p");

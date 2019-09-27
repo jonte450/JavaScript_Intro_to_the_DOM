@@ -1,0 +1,17 @@
+QUESTION 1 OF 2
+
+Which of the following is the correct way to declare a variable in JavaScript? (assume each line is run in isolation)
+
+Answers:
+
+const name = 'Miguel';.
+var name = 'Orvin';
+
+
+QUESTION 2 OF 2
+
+Using the code below, which of the following correctly access the string 'Malaysia'?
+
+Answers:
+
+locations[2];
